@@ -204,7 +204,7 @@ setup_repo_safety_lock() {
 
         local safety_script="/etc/default/repo-safety.sh"
         if sudo curl -fsSL -o "$safety_script" \
-            "https://github.com/SheoranPranshu/Building-Help/raw/refs/heads/main/repo-safety.sh"; then
+            "https://raw.githubusercontent.com/nullpointer1101/Building-Custom-Rom/refs/heads/main/scripts/repo-safety.sh"; then
             sudo chmod +x "$safety_script"
             if [[ -x "$safety_script" ]]; then
                 echo -e "${C_GREEN}${ICON_OK} Safety lock installed:${C_NC} ${C_DIM}$safety_script${C_NC}"
