@@ -6,7 +6,7 @@ Automated setup scripts for building custom Android ROMs on Ubuntu 22.04 LTS.
 ## Repository Setup
 
 ```bash
-git clone https://github.com/sheoranpranshu/Building-Custom-Rom.git build-scripts
+git clone https://github.com/nullPointer1101/Building-Custom-Rom.git build-scripts
 cd build-scripts
 ```
 
